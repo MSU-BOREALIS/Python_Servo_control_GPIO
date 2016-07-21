@@ -5,6 +5,8 @@ from time import sleep
 
 PWM_PIN = 18
 
+#this code is not a finished script.  The intention was to center the servo first.
+
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(PWM_PIN, GPIO.OUT)
 GPIO.setwarnings(False)
